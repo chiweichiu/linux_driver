@@ -19,10 +19,13 @@ Raspberrt pi 3b + 其自制IO擴充板
 > Linux SPI Framework
 
 > char device driver
+
 > GPIO Driver Framewrok
 
 > 中斷
-> 核心機制
-> 
-> 
 
+> 核心機制
+
+
+> Reference<br>
+- https://en.wikipedia.org/wiki/VideoCore#Table_of_SoCs_adopting_VideoCore_SIP_blocks
