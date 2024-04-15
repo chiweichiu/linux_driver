@@ -13,5 +13,13 @@
 - linux-rpi/drivers/i2c/busses/ - host controller driver。
 - linux-rpi/drivers/i2c/algos - i2c msg包裝SDA SCL資訊轉換成實際protocal訊號 。
 
+> i2c client driver for eeprom<br>
+
+![alt Software stack](https://github.com/chiweichiu/linux_driver/blob/main/utils/i2c_sofeware_stack.JPG)
+
+
 > Reference<br>
 - https://www.slideshare.net/itembedded/raspberry-pi-linux-i2c-driver#13
+- https://www.kernel.org/doc/html/latest/i2c/writing-clients.html
+- https://www.cnblogs.com/cslunatic/archive/2013/06/13/3134607.html
+- https://hackmd.io/@RinHizakura/BJDTZnUsF
