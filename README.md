@@ -7,10 +7,13 @@ Raspberrt pi 3b + 其自制IO擴充板
 其platform driver/platoform device架構(device tree)與client端driver，<br>
 完整了解linux驅動程式框架。<br>
 
-> Linux I2C Framework
-實例為i2c eerpom driver經過i2c framework，再透過i2c host controller發動command驅動。<br>
-[Linux I2C Framework](https://github.com/chiweichiu/linux_driver/blob/main/linux_i2c_framework/README.md)
+> Linux I2C Framework <br>
 
+    實例為i2c eerpom driver經過i2c framework，再透過i2c host controller發動command驅動。<br>
+    [Linux I2C Framework](https://github.com/chiweichiu/linux_driver/blob/main/linux_i2c_framework/README.md)
+    - i2c framework / device driver / controller driver。
+    - i2c protocal overview。
+    - i2c eeprom 24c02c操作。
 
 > platform bus model(platform device/platform driver)
 
