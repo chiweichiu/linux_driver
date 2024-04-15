@@ -1,7 +1,7 @@
 # linux_driver
 艾蒂嵌入式學院的linux課程筆記。<br>
 Raspberrt pi 3b + 其自制IO擴充板
-
+![alt raspi3b](https://github.com/chiweichiu/linux_driver/blob/main/utils/raspi3b.JPG)
 
 透過linux i2c子系統，了解platform bus模型(linux device model)，<br>
 其platform driver/platoform device架構(device tree)與client端driver，<br>
