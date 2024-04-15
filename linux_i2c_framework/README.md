@@ -23,6 +23,11 @@
   是同一支driver支援不同的裝置。寫完透過i2c_add_driver註冊進子系統。
 - probe呼計的時機點是client driver的name = board_info的name。probe時kernel帶兩個參數給driver，一個是i2c_board_info
   資訊，一個是kernel找到的這筆device id
+
+> **i2c host controller driver**<br>
+---
+
+
 > Reference<br>
 - https://www.slideshare.net/itembedded/raspberry-pi-linux-i2c-driver#13
 - https://www.kernel.org/doc/html/latest/i2c/writing-clients.html
