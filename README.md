@@ -2,15 +2,16 @@
 <font color=#008000>艾蒂嵌入式學院的linux課程筆記。</font><br>
 Raspberrt pi 3b + 其自制IO擴充板
 ![alt raspi3b](https://github.com/chiweichiu/linux_driver/blob/main/utils/raspi3b.JPG)
-
+[stable/linux-4.14.y](https://github.com/raspberrypi/linux/releases/tag/raspberrypi-kernel_1.20190401-1)
+<br>
+<br>
+> **Linux I2C Framework**<br>
+---
 透過linux i2c子系統，了解platform bus模型(linux device model)，<br>
 其platform driver/platoform device架構(device tree)與client端driver，<br>
 完整了解linux驅動程式框架。<br>
-
-> **Linux I2C Framework**<br>
----
-<font color=#008000>實例</font>為i2c eerpom driver經過i2c framework，再透過i2c host controller發動command驅動。<br>
-[Linux I2C Framework](https://github.com/chiweichiu/linux_driver/blob/main/linux_i2c_framework/README.md)
+實例為i2c eerpom driver經過i2c framework，再透過i2c host controller發動command驅動。<br>
+[Linux I2C Framework and eeprom driver](https://github.com/chiweichiu/linux_driver/blob/main/linux_i2c_framework/README.md)
 - i2c framework / client driver / controller driver。
 - i2c protocal overview。
 - i2c eeprom 24c02c操作。
@@ -34,4 +35,5 @@ Raspberrt pi 3b + 其自制IO擴充板
 
 > Reference<br>
 - https://en.wikipedia.org/wiki/VideoCore#Table_of_SoCs_adopting_VideoCore_SIP_blocks
-- https://github.com/thenaran/linux-rpi/
+- https://github.com/raspberrypi/linux/tree/rpi-4.14.y
+- https://www.raspberrypi.com/documentation/computers/linux_kernel.html#cross-compiling-the-kernel
