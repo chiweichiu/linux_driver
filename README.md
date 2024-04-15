@@ -15,20 +15,22 @@ Raspberrt pi 3b + 其自制IO擴充板
 - i2c protocal overview。
 - i2c eeprom 24c02c操作。
 
-> platform bus model(platform device/platform driver)
-
-> device tree
-
+> Platform bus model(platform device/platform driver)
+- TBD
+> Device tree
+- TBD
 > Linux SPI Framework
-
-> char device driver
-
+- TBD
+> Linux UART Framework
+- TBD
+> Char device driver
+- TBD
 > GPIO Driver Framewrok
-
+- TBD
 > 中斷
-
+- TBD
 > 核心機制
-
+- TBD
 
 > Reference<br>
 - https://en.wikipedia.org/wiki/VideoCore#Table_of_SoCs_adopting_VideoCore_SIP_blocks
