@@ -29,3 +29,4 @@ Raspberrt pi 3b + 其自制IO擴充板
 
 > Reference<br>
 - https://en.wikipedia.org/wiki/VideoCore#Table_of_SoCs_adopting_VideoCore_SIP_blocks
+- https://github.com/thenaran/linux-rpi/
