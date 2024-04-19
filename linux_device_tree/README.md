@@ -1,4 +1,8 @@
 # linux device tree
+> device tree架構<br>
+---
+![alt dt](https://github.com/chiweichiu/linux_driver/blob/main/utils/dt.JPG)<br>
+- 
 > 觀察系統的device tree<br>
 ---
 - 使用dtc反向編譯<br>
@@ -7,3 +11,5 @@
 - /arch/arm/boot/dts/bcm283x.dtsi<br>
 ![alt bcm283x](https://github.com/chiweichiu/linux_driver/blob/main/utils/bcm283x.JPG)<br>
 
+> Reference
+- https://www.slideshare.net/itembedded/linux-device-tree
