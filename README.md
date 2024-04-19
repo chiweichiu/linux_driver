@@ -1,6 +1,6 @@
 # linux_driver
 <font color=#008000>艾蒂嵌入式學院的linux課程筆記。</font><br>
-Raspberrt pi 3b + 其自制IO擴充板
+Raspberrt pi 3b 與其自制IO擴充板
 ![alt raspi3b](https://github.com/chiweichiu/linux_driver/blob/main/utils/raspi3b.JPG)
 [stable/linux-4.14.y](https://github.com/raspberrypi/linux/releases/tag/raspberrypi-kernel_1.20190401-1)
 <br>
@@ -21,8 +21,11 @@ Raspberrt pi 3b + 其自制IO擴充板
 > **Device tree**<br>
 ---
 跟platform device架構很類似的新架構，都是針對作業系統有的硬體資源做描述，相比於platform device的優勢在於使用device tree可以動態<br>
-對硬體資源做載入的動作，不需要
-- TBD
+對硬體資源做載入的動作，不需要重新編譯kernel image。能達成這種效果的理由是device tree是單獨的dts檔案，bootloader在開機時會把這個<br>
+資訊傳遞給kernel，當作kernel開機參數之一。 
+- DTS cource
+![alt raspi3b](https://github.com/chiweichiu/linux_driver/blob/main/utils/raspi3b.JPG)
+  
 > Linux SPI Framework
 - TBD
 > Linux UART Framework
