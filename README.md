@@ -18,7 +18,10 @@ Raspberrt pi 3b + 其自制IO擴充板
 
 > Platform bus model(platform device/platform driver)
 - TBD
-> Device tree
+> **Device tree**<br>
+---
+跟platform device架構很類似的新架構，都是針對作業系統有的硬體資源做描述，相比於platform device的優勢在於使用device tree可以動態<br>
+對硬體資源做載入的動作，不需要
 - TBD
 > Linux SPI Framework
 - TBD
