@@ -15,7 +15,6 @@ Raspberrt pi 3b 與其自制IO擴充板
 - i2c framework / client driver / controller driver。
 - i2c protocal overview。
 - i2c eeprom 24c02c操作。
-
 > Platform bus model(platform device/platform driver)
 - TBD
 > **Device tree**<br>
@@ -23,9 +22,10 @@ Raspberrt pi 3b 與其自制IO擴充板
 跟platform device架構很類似的新架構，都是針對作業系統有的硬體資源做描述，相比於platform device的優勢在於使用device tree可以動態<br>
 對硬體資源做載入的動作，不需要重新編譯kernel image。能達成這種效果的理由是device tree是單獨的dts檔案，bootloader在開機時會把這個<br>
 資訊傳遞給kernel，當作kernel開機參數之一。 
-- DTS cource
-![alt raspi3b](https://github.com/chiweichiu/linux_driver/blob/main/utils/raspi3b.JPG)
-  
+- DTS cource<br>
+![alt bcm2710-rpi-3-b](https://github.com/chiweichiu/linux_driver/blob/main/utils/bcm2710-rpi-3-b.JPG)<br>
+![alt vi-bcm2710-rpi-3-b](https://github.com/chiweichiu/linux_driver/blob/main/utils/vi-bcm2710-rpi-3-b.JPG)<br> 
+[Linux Device Tree](https://github.com/chiweichiu/linux_driver/blob/main/linux_i2c_framework/README.md)  
 > Linux SPI Framework
 - TBD
 > Linux UART Framework
