@@ -25,7 +25,7 @@ Raspberrt pi 3b 與其自制IO擴充板
 - DTS cource<br>
 ![alt bcm2710-rpi-3-b](https://github.com/chiweichiu/linux_driver/blob/main/utils/bcm2710-rpi-3-b.JPG)<br>
 ![alt vi-bcm2710-rpi-3-b](https://github.com/chiweichiu/linux_driver/blob/main/utils/vi-bcm2710-rpi-3-b.JPG)<br> 
-[Linux Device Tree](https://github.com/chiweichiu/linux_driver/blob/main/linux_i2c_framework/README.md)  
+[Linux Device Tree](https://github.com/chiweichiu/linux_driver/blob/main/linux_device_tree/README.md)  
 > Linux SPI Framework
 - TBD
 > Linux UART Framework
