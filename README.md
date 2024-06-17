@@ -27,11 +27,10 @@ Raspberrt pi 3b 與其自制IO擴充板
 ## Linux SPI Framework
 - TBD
 ## Linux UART Framework
-- linux driver overview
-![alt linux_driver_overview](https://github.com/chiweichiu/linux_driver/blob/main/utils/linuxdriveroverview.JPG)<br> 
-- 
+- TBD
 ## Char device driver
-- [Linux Char_Driver for Leds](https://github.com/chiweichiu/linux_driver/blob/main/linux_char_driver/README.md)<br>
+透過GPIO字元裝置驅動程式控制Led閃爍<br>
+[Linux Char Driver for Leds](https://github.com/chiweichiu/linux_driver/blob/main/linux_char_driver/README.md)<br>
 ## GPIO Driver Framewrok
 - TBD
 ## 中斷
